@@ -7,17 +7,17 @@ export default function Header() {
       <header className="header">
         <nav className="navbar">
           <li>
-            <a href="#home">Home</a>
+            {/* <a href="#home">Home</a> */}
+            <Link to="/">Home</Link>
           </li>
 
           <li>
-            <a href="#about">About</a>
+            {/* <a href="#about">About</a> */}
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <a href="#services">Services</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
+            {/* <a href="#contact">Contact</a> */}
+            <Link to="/contact">Contact</Link>
           </li>
         </nav>
       </header>

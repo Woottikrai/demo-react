@@ -1,6 +1,9 @@
+import Header from "../header/Header";
+
 export default function Home() {
   return (
     <>
+      <Header />
       <div className="home-container">
         <h1>Welcome to the Home Page</h1>
         <p>
